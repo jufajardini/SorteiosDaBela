@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/background3"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/dw_number_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:text="Último Número Sorteado" />
+
+    <TextView
+        android:id="@+id/dw_number_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/dw_number_label"
+        android:textColor="#3F51B5"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:text="Número" />
+
+    <Button
+        android:id="@+id/button_draw_again"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dw_number_value"
+        android:background="@drawable/button_background"
+        android:padding="18dp"
+        android:text="@string/button_draw"
+        android:layout_margin="25dp"
+        android:textColor="@color/textWhite"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/label_dw_nbrs_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_draw_again"
+        android:text="Sorteios anteriores:"
+        android:layout_marginBottom="20dp"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/list_dw_nbrs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label_dw_nbrs_list"
+        android:text="1"
+        android:layout_marginStart="25dp"
+        android:textColor="#3F51B5"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:inputType="number" />
+
+
+</RelativeLayout>

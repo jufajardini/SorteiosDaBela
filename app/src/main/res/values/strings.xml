@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SorteiosDaBela</string>
+    <string name="choose_range">Escolha o intervalo:</string>
+    <string name="allowed_range">(0-300)</string>
+    <string name="greeting">Olá Bela!</string>
+    <string name="start_label">Início:</string>
+    <string name="end_label">Fim:</string>
+    <string name="choose_repetition">Números repetem?</string>
+    <string name="choose_yes">Sim</string>
+    <string name="choose_no">Não</string>
+    <string name="button_draw">Sortear!</string>
+</resources>
